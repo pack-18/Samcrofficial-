@@ -1481,10 +1481,37 @@ updateModel();
 };
   
 /*crunchyroll footer*/
-const footer = document.querySelector('.erc-footer');
-  if (footer) {
-      footer.style.display = 'none';
-        }
+function hideFooterOnMatch(urls) {
+    const currentUrl = window.location.href;
+
+      for (const url of urls) {
+          const regex = new RegExp(url);
+              if (regex.test(currentUrl)) {
+                    const footer = document.querySelector('.erc-footer');
+                          if (footer) {
+                                  footer.style.display = 'none';
+                                        }
+                                              break; // Stop iterating after a match is found
+                                                  }
+                                                    }
+                                                    }
+
+                                                    // Define your URL patterns as an array
+                                                    const targetUrls = [
+                                                      "https://crunchyroll.com",
+                                                      "https://www.crunchyroll.com",
+                                                        "https://sos.crunchyroll.com/"
+                                                        ];
+
+                                                        // Execute the function on DOMContentLoaded
+                                                        document.addEventListener('DOMContentLoaded', () => {
+                                                          hideFooterOnMatch(targetUrls);
+                                                          });
+
+
+
+
+       
         
 
 
