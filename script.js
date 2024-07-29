@@ -39,7 +39,7 @@ document.body.appendChild(x);
 
 
 window.onload = function(){ 
-if(parseFloat(Android.getInfo()) < parseFloat(YTProVer) && (window.location.href == "https://m.youtube.com/" || window.location.href == "https://m.youtube.com") ){
+if(parseFloat(Android.getInfo()) < parseFloat(YTProVer) && (window.location.href == "https://www.crunchyroll.com/" || window.location.href == "https://crunchyroll.com") ){
 updateModel();
 }
 };
