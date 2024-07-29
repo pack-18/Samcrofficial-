@@ -1481,12 +1481,16 @@ updateModel();
 };
   
 /*crunchyroll footer*/
-document.addEventListener('DOMContentLoaded', () => {
-    const footer = document.querySelector('.site-footer');
-      if (footer) {
-          footer.remove();
-            }
-            });
+const footer = document.querySelector('.erc-footer');
+  if (footer) {
+      footer.style.display = 'none';
+        }
+        
+
+
+
+
+
 
 
 
