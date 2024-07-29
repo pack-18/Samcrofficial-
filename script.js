@@ -1482,11 +1482,20 @@ updateModel();
   
 /*crunchyroll footer*/
 function skipSponsor() {
+
     const footer = document.querySelector('.erc-footer');
       if (footer) {
-          footer.remove();
+          footer.style.display = 'none';
             }
-          }
+            }
+
+            skipSponsor();
+
+
+
+     
+         
+
 
 
 
