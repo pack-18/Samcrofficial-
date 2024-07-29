@@ -16,9 +16,9 @@ x.setAttribute("style",`height:100%;width:100%;position:fixed;display:grid;align
 x.innerHTML=`
 <div style="height:140px;width:70%;padding:20px;background:rgba(0,0,0,.1);border:1px solid #888;box-shadow:0px 0px 5px black;backdrop-filter:blur(10px);border-radius:15px;margin:auto">
 <h2> Update Available</h2><br>
-Latest Version ${YTProVer} of Ravan YouTube Premium is available , update the Update Ravan YouTube Premium to get latest features.
-<br>- Improved Background Play<br>
-- Bug fixed and updated
+Latest Version ${YTProVer} of Ravan Crunchyroll is available , update the Update Ravan Crunchyroll to get latest features.
+<br>- current version fix<br>
+- display update model published 
 <br>
 <br>
 <div style="display:flex;">
